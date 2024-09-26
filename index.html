@@ -1,42 +1,48 @@
-<!doctype html>
-<link rel="stylesheet" type="text/css" href="style.css"
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  </style>
+<!DOCTYPE html>
+<html lang="en">
 
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <title>Mi primera página de prueba</title>
-  </head>
-  <body>
-    <div>
-      <p>
-        <b class="title01">By the numbers</b>
-      </p>
-      <div class="box01">
-        <p class="title02">25 Billion</p>
-      </div>
-      <div class="box02">
-        <p class="title02">1.5 Billion</p>
-      </div>
-      <div class="row">
-        <div class="column" style="background-color:#aaa;">
-          <h2 class="title02">Column 1</h2>
-          <p>Some text..</p>
-        </div>
-        <div class="column" style="background-color:#bbb;">
-          <h2>Column 2</h2>
-          <p>Some text..</p>
-        </div>
-        <div class="column" style="background-color:#ccc;">
-          <h2>Column 3</h2>
-          <p>Some text..</p>
-        </div>
-      </div>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Simple CSS Grid Layout</title>
+
+        <link rel="stylesheet" href="./css/index.css" />
+
+    </head>
+
+    <body>
+
+        <!-- Header with Grid Layout -->
+        <header>
+            <div>Logo</div>
+            <div>Navigation</div>
+            <div>Search</div>
+        </header>
+
+        <!-- Main Content Area with Grid Layout -->
+        <main>
+            <div class="grid-item">
+                <h2>Grid Item 1</h2>
+                <p>This is the content for the first grid item.</p>
+            </div>
+            <div class="grid-item">
+                <h2>Grid Item 2</h2>
+                <p>This is the content for the second grid item.</p>
+            </div>
+            <div class="grid-item">
+                <h2>Grid Item 3</h2>
+                <p>This is the content for the third grid item.</p>
+            </div>
+        </main>
+
+        <!-- Footer with Grid Layout -->
+        <footer>
+            <div>Contact Us</div>
+            <div>Privacy Policy</div>
+            <div>Follow Us</div>
+        </footer>
+
+    </body>
+
 </html>
