@@ -1,4 +1,10 @@
-.space-mono-regular {
+.dotgothic16-regular {
+    font-family: "DotGothic16", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .space-mono-regular {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
@@ -9,16 +15,35 @@
     font-weight: 700;
     font-style: normal;
   }
-  
-  .space-mono-regular-italic {
-    font-family: "Space Mono", monospace;
+
+
+html{
+    background-color: #000000;
+}
+h3{
+    font-family: "DotGothic16", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
-    font-style: italic;
-  }
-  
-  .space-mono-bold-italic {
+    font-style: normal;
+    font-size: 5em;
+    color: #ffffff;
+}
+
+a{
     font-family: "Space Mono", monospace;
     font-weight: 700;
-    font-style: italic;
-  }
-  
+    font-style: normal;
+    color: #FF3300;
+}
+
+p{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+ol{
+    font-family: "Space Mono", monospace;
+    color: #ffffff;
+}
