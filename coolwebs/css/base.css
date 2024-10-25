@@ -5,57 +5,43 @@
   font-style: normal;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 500px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 html{
-    background-color: #1a1a1a;
-    width: 1440px;
-    
+    background-color: #1a1a1a;  
+}
+
+
+
+section{
+  padding: 72px;
 }
 h3{
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-    color: #d7dedb;
+    color: #000000;
 }
 h4{
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-    color: #d7dedb;
+    color: #000000;
 }
 
 a{
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;
-    color: #FF3300;
+    color: #ffffff;
 }
 
 p{
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
-    color: #ffffff;
+    color: #000000;
 }
 
 ol{
