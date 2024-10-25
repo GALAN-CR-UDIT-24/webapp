@@ -9,11 +9,10 @@ html{
   background-color: #1a1a1a;  
 }
 
-
-
 section{
   padding: 72px;
 }
+
 h3{
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
@@ -21,6 +20,7 @@ h3{
   font-style: normal;
   color: #000000;
 }
+
 h4{
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
