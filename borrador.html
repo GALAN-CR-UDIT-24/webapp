@@ -3,36 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño de Tres Columnas Adaptable</title>
+    <title>Diseño de Tres Filas Adaptable</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
         }
         .container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            flex-direction: column;
             padding: 20px;
         }
-        .column {
-            flex: 1;
-            min-width: 250px; /* Ancho mínimo de cada columna */
-            margin: 10px;
-            padding: 20px;
-            background-color: #f4f4f4;
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: #fff;
             border: 1px solid #ccc;
+            border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 10px;
+        }
+        .image {
+            flex: 1;
+            min-width: 100px; /* Ancho mínimo de la imagen */
+            margin-right: 10px;
+        }
+        .text {
+            flex: 2;
+        }
+        img {
+            max-width: 100%; /* Adaptar imagen al tamaño del contenedor */
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="column">Columna 1</div>
-    <div class="column">Columna 2</div>
-    <div class="column">Columna 3</div>
+    <div class="row">
+        <div class="image">
+            <img src="https://via.placeholder.com/100" alt="Imagen 1">
+        </div>
+        <div class="text">
+            <h3>Título de la Fila 1</h3>
+            <p>Descripción de la fila 1. Aquí puedes añadir más detalles sobre el contenido.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="image">
+            <img src="https://via.placeholder.com/100" alt="Imagen 2">
+        </div>
+        <div class="text">
+            <h3>Título de la Fila 2</h3>
+            <p>Descripción de la fila 2. Puedes agregar información adicional aquí también.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="image">
+            <img src="https://via.placeholder.com/100" alt="Imagen 3">
+        </div>
+        <div class="text">
+            <h3>Título de la Fila 3</h3>
+            <p>Descripción de la fila 3. Proporciona más contexto o detalles si lo deseas.</p>
+        </div>
+    </div>
 </div>
 
 </body>
