@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño de Tres Filas Adaptable</title>
+    <title>Diseño de Tres Filas y Tres Columnas Adaptable</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,21 +18,20 @@
         }
         .row {
             display: flex;
-            align-items: center;
+            align-items: flex-start; /* Alinear la parte superior */
             margin-bottom: 20px;
             background-color: #fff;
             border: 1px solid #ccc;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             padding: 10px;
         }
-        .image {
-            flex: 1;
-            min-width: 100px; /* Ancho mínimo de la imagen */
-            margin-right: 10px;
+        .column {
+            flex: 1; /* Las columnas ocupan el mismo espacio */
+            margin-right: 10px; /* Espacio entre columnas */
         }
-        .text {
-            flex: 2;
+        .column:last-child {
+            margin-right: 0; /* Sin margen a la derecha en la última columna */
         }
         img {
             max-width: 100%; /* Adaptar imagen al tamaño del contenedor */
@@ -44,30 +43,36 @@
 
 <div class="container">
     <div class="row">
-        <div class="image">
-            <img src="https://via.placeholder.com/100" alt="Imagen 1">
+        <div class="column">
+            <h3>Título 1</h3>
         </div>
-        <div class="text">
-            <h3>Título de la Fila 1</h3>
+        <div class="column">
             <p>Descripción de la fila 1. Aquí puedes añadir más detalles sobre el contenido.</p>
         </div>
+        <div class="column">
+            <img src="https://via.placeholder.com/100" alt="Imagen 1">
+        </div>
     </div>
     <div class="row">
-        <div class="image">
-            <img src="https://via.placeholder.com/100" alt="Imagen 2">
+        <div class="column">
+            <h3>Título 2</h3>
         </div>
-        <div class="text">
-            <h3>Título de la Fila 2</h3>
+        <div class="column">
             <p>Descripción de la fila 2. Puedes agregar información adicional aquí también.</p>
         </div>
+        <div class="column">
+            <img src="https://via.placeholder.com/100" alt="Imagen 2">
+        </div>
     </div>
     <div class="row">
-        <div class="image">
-            <img src="https://via.placeholder.com/100" alt="Imagen 3">
+        <div class="column">
+            <h3>Título 3</h3>
         </div>
-        <div class="text">
-            <h3>Título de la Fila 3</h3>
+        <div class="column">
             <p>Descripción de la fila 3. Proporciona más contexto o detalles si lo deseas.</p>
+        </div>
+        <div class="column">
+            <img src="https://via.placeholder.com/100" alt="Imagen 3">
         </div>
     </div>
 </div>
