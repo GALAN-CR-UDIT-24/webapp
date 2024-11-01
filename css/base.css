@@ -32,22 +32,31 @@ html{
     background-color: black;
     margin: 40px;
 }
-
+body{
+    margin: 0;
+}
 h1{
     font-family: 'AtHaussTRIAL-Light';
     font-size: 45px;
+    line-height: 45px;
+    color: #d7dedb;
+    margin: 0;
 }
-
-h2{
+h3{
     font-family: 'AtHaussTRIAL-Light';
     font-size: 24px;
     margin-top: 40px;
     margin-bottom: 20px;
+    color: #d7dedb;
 }
 
 p{
-    font-family: 'AtHaussTRIAL-Bold';
+    font-family: 'AtHaussTRIAL-Regular';
     font-size: 24px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 sup{
@@ -58,4 +67,5 @@ a{
     font-family: 'AtHaussTRIAL-Bold';
     font-size: 24px;
     text-decoration: none;
+    color: #d7dedb;
 }
