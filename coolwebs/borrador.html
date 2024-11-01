@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01. Cool webs</title>
+
+    <link href="./css/base.css" rel="stylesheet"/>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap; /* Permitir que las columnas se ajusten en múltiples líneas */
+            align-items: flex-start; /* Alinear la parte superior */
+            margin-bottom: 15px;
+            border-bottom: 1px solid #000000;
+        }
+        .column {
+            flex: 1; /* Las columnas ocupan el mismo espacio */
+            min-width: 150px; /* Ancho mínimo para columnas */
+            margin-bottom: 10px;
+        }
+        .column:last-child {
+            margin-right: 0; /* Sin margen a la derecha en la última columna */
+        }
+        img {
+            width: 100%; /* Adaptar imagen al tamaño del contenedor */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+            <div class="column">
+                <a href="https://kubrick.life/" target="_blank">Stanley Kubrick <span style="font-family: 'AtHaussTRIAL-Light';">/ biography website</span></a>
+            </div>
+            <div class="column">
+                <p>I like the way Tubik Studio utilised the bold typography and contrast colours within
+                a limited palette, high readability, and variety of visual effects.</p>
+            </div>
+            <div class="column">
+                <a href="https://kubrick.life/" target="_blank">
+                    <img src="./assets/images/stanleykubrick-web.jpg" alt="Stanley Kubrick">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <a href="https://demofestival.com/" target="_blank">DEMO <span style="font-family: 'AtHaussTRIAL-Light';">/ festival website</span></a>
+        </div>
+        <div class="column">
+        <p>I find very original the way in which the DEMO identity utilises bold typography
+            in a very fluid way; always moving and transforming. The logotype continuously
+            transdorms on screen and the movement is always contained within a set frame,
+            referring to screen parameters.</p>
+        </div>
+        <div class="column">
+            <a href="https://demofestival.com/" target="_blank">
+                <img src="./assets/images/images.png" alt="DEMO Festival">
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <a href="https://romaingranai.xyz/" target="_blank">Romain Granai <span style="font-family: 'AtHaussTRIAL-Light';">/ personal website</span></a>
+        </div>
+        <div class="column">
+            <p>I find very interesting the motion it uses on typography while browsing the web.
+                When we scroll down the webpage and move the mouse, the typography's position, angle,
+                and shape will change simultaneously. Meanwhile, the switch buttons on the website's
+                top can transform the website between positive and negative colours, and make the texts
+                more display.
+            </p>
+        </div>
+        <div class="column">
+            <a href="https://romaingranai.xyz/" target="_blank">
+                <img src="./assets/images/romaingranai.jpg" alt="Romain Granai's website">
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column" style="margin-bottom: 5px;">
+            <p style="margin-left: 0; font-family: 'AtHaussTRIAL-Light'; font-size: 15px;">All websites have been selected from the book 
+                <a href="https://www.behance.net/gallery/89510299/Typography-for-Screen-Type-in-Motion" target="_blank" style="font-size: 15px;">'Typography for Screen: Type in Motion'</a>
+                 by <a href="https://www.asiaartcenter.org/asia/portfolio/wang-shaoqiang/?lang=en" target="_blank" style="font-size: 15px;">Wang Shaoqiang</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="row" style="border-bottom: 0px; margin-bottom: 0;">
+        <div class="column" style="margin-top: 40px;">
+            <a href="https://galan-cr-udit-24.github.io/webapp/">INDEX</a>
+        </div>
+        <div class="column"></div>
+        <div class="column" style="margin-top: 40px; text-align: right;">
+            <a href="" target="_top" style="font-family: 'AtHaussTRIAL-Regular';">back to top</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

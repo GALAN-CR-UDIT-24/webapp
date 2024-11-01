@@ -7,12 +7,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: #3B3634;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-    }
+    color: #eaeaea;
+}
 
     header,
     footer {
@@ -57,11 +53,11 @@ body {
         h2,
         h3,
         h4 {
-            color: #3B3634;
+            color: #eaeaea;
         }
 
         a {
-            color: #3F3F3F;
+            color: #eaeaea;
         }
 
         article {
@@ -88,11 +84,6 @@ body {
             font-size: 0.9em;
             color: #635B58;
             /* Slightly darker highlight color */
-        }
-
-        p {
-            margin: 15px 0;
-            line-height: 1.8;
         }
 
         .highlight {
