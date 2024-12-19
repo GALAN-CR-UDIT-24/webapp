@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Adaptable</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .texto {
+            color: #333;
+        }
+
+        /* Estilo para pantallas pequeñas (móviles) */
+        @media screen and (max-width: 599px) {
+            .texto {
+                font-size: 14px;  /* Tamaño de texto para móviles */
+            }
+        }
+
+        /* Estilo para pantallas medianas (tabletas) */
+        @media screen and (min-width: 600px) and (max-width: 899px) {
+            .texto {
+                font-size: 18px;  /* Tamaño de texto para tabletas */
+            }
+        }
+
+        /* Estilo para pantallas grandes (escritorios) */
+        @media screen and (min-width: 900px) {
+            .texto {
+                font-size: 24px;  /* Tamaño de texto para escritorios */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de texto adaptable</h1>
+    <p>
+        Este es un ejemplo de cómo adaptar el tamaño del texto en una etiqueta <span class="texto">span</span> a diferentes tamaños de pantalla. 
+        Dependiendo del tamaño de tu dispositivo, el texto cambiará de tamaño.
+    </p>
+</body>
+</html>
