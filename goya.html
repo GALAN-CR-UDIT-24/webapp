@@ -9,11 +9,22 @@
 
     <style>
         /* Estilos generales */
+        html{
+            background-color: white;
+        }
+
         body {
             padding: 20px;
         }
 
-        span {
+        p{
+            font-family: 'PPEditorialNew-Ultralight';
+            font-size: var(--text-lg);
+            line-height: var(--text-2xl);
+        }
+
+        a{
+            font-family: 'PPEditorialNew-Ultralight';
             cursor: pointer;
             background-color: olivedrab;
             padding-top: 0.4vw;
@@ -25,15 +36,38 @@
             /*height: 4.8vw;
             line-height: 4.8vw;*/
         }
+
+        a img {
+            position: absolute;
+            top: 50%;               /* La imagen se coloca al 50% de la altura de la ventana */
+            left: 50%;              /* La imagen se coloca al 50% de la anchura de la ventana */
+            transform: translate(-50%, -50%); /* Centra la imagen exactamente */
+            display: none;  /* La imagen está oculta inicialmente */
+            width: 5vw;   /* Ajusta el tamaño de la imagen */
+            height: auto;
+            z-index: 10;   
+        }
+
+        /* Estilos cuando el cursor está sobre el enlace */
+        a:hover img {
+            display: block; /* Muestra la imagen al hacer hover */
+        }
+
+        /* Estilo para la imagen responsiva */
+        .responsive-image {
+            width: clamp(150px, 50vw, 500px);  /* El tamaño se adapta a la pantalla */
+            height: auto;  /* Mantiene la relación de aspecto de la imagen */
+        }
+
+
+
     </style>
 </head>
 <body>
-    <h1 style="font-size: var(--text-xl); line-height: var(--text-xl);"><span>Francisco de Goya</span> — Zaragoza, 1746 / Bordeaux, 1818 — considered the father of contemporary art,
+    <p style="font-size: var(--text-lg); line-height: var(--text-2xl);">
+        <a>Francisco de Goya <img class="responsive-image" src="./images/goya.jpg"></a> — Zaragoza, 1746 / Bordeaux, 1818 — considered the father of contemporary art,
         also known for having a great vision of the artistic movements emerging across the continent, from Romanticism to Surrealism,
-        passing through Impressionism and Expressionism.</h1>
-    <p>
-        Este es un ejemplo de cómo adaptar el tamaño del texto en una etiqueta <span class="texto">span</span> a diferentes tamaños de pantalla. 
-        Dependiendo del tamaño de tu dispositivo, el texto cambiará de tamaño.
+        passing through Impressionism and Expressionism.
     </p>
 </body>
 </html>

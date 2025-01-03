@@ -1,33 +1,3 @@
-/* Fonts */
-
-@font-face {
-    font-family: 'AtHaussTRIAL-Light';
-    src: url('./fonts/AtHaussTRIAL-Light.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'AtHaussTRIAL-LightItalic';
-    src: url('./fonts/AtHaussTRIAL-LightItalic.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'AtHaussTRIAL-Regular';
-    src: url('./fonts/AtHaussTRIAL-Regular.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'AtHaussTRIAL-RegularItalic';
-    src: url('./fonts/AtHaussTRIAL-RegularItalic.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'AtHaussTRIAL-Bold';
-    src: url('./fonts/AtHaussTRIAL-Bold.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'AtHaussTRIAL-BoldItalic';
-    src: url('./fonts/AtHaussTRIAL-BoldItalic.woff2') format('woff2');
-}
-
-
-/* Styles */
-
 html{
     background-color: black;
     margin: 40px;
@@ -36,14 +6,14 @@ body{
     margin: 0;
 }
 h1{
-    font-family: 'AtHaussTRIAL-Light';
+    font-family: 'AtHaussMono-Light';
     font-size: 45px;
     line-height: 45px;
     color: #d7dedb;
     margin: 0;
 }
 h3{
-    font-family: 'AtHaussTRIAL-Light';
+    font-family: 'AtHaussMono-Light';
     font-size: 24px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -51,7 +21,7 @@ h3{
 }
 
 p{
-    font-family: 'AtHaussTRIAL-Regular';
+    font-family: 'AtHaussMono-Regular';
     font-size: 24px;
     margin-top: 0;
     margin-left: 0;
@@ -60,11 +30,11 @@ p{
 }
 
 sup{
-    font-family: 'AtHaussTRIAL-Light';
+    font-family: 'AtHaussMono-Light';
 }
 
 a{
-    font-family: 'AtHaussTRIAL-Bold';
+    font-family: 'AtHaussMono-Bold';
     font-size: 24px;
     text-decoration: none;
     color: #d7dedb;

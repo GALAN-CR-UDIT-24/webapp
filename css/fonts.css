@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'AtHaussMono-Light';
+    src: url('./fonts/AtHaussMono-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'AtHaussMono-LightItalic';
+    src: url('./fonts/AtHaussMono-LightItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'AtHaussMono-Regular';
+    src: url('./fonts/AtHaussMono-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'AtHaussMono-RegularItalic';
+    src: url('./fonts/AtHaussMono-RegularItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'AtHaussMono-Bold';
+    src: url('./fonts/AtHaussMono-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'AtHaussMono-BoldItalic';
+    src: url('./fonts/AtHaussMono-BoldItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'PPEditorialNew-Ultralight';
+    src: url('./fonts/PPEditorialNew-Ultralight.otf') format('woff2');
+}
+@font-face {
+    font-family: 'PPEditorialNew-Regular';
+    src: url('./fonts/PPEditorialNew-Regular.otf') format('woff2');
+}
+@font-face {
+    font-family: 'PPMondwest-Regular';
+    src: url('./fonts/PPMondwest-Regular.otf') format('woff2');
+}
+@font-face {
+    font-family: 'PPNeueBit-Bold';
+    src: url('./fonts/PPNeueBit-Bold.otf') format('woff2');
+}
