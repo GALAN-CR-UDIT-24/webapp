@@ -5,92 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Texto Adaptable</title>
     <link href="./css/index.css" rel="stylesheet"/>
-
-
-    <style>
-        /* Estilos generales */
-        html{
-            background-color: white;
-        }
-
-        /*body{
-            padding: 20px;
-        }*/
-
-        p{
-            font-family: 'PPEditorialNew-Ultralight';
-            font-size: var(--text-xl);
-            line-height: var(--text-2xl);
-            text-align: justify;
-        }
-
-        a{
-            font-family: 'PPEditorialNew-Ultralight';
-            font-size: var(--text-xl);
-            line-height: var(--text-2xl);
-            cursor: pointer;
-            background: linear-gradient(to right, #375f44, #e9c071);
-            color: black;
-            padding-left: clamp(12px, 2vw, 20px);
-            padding-right: clamp(10px, 2vw, 20px);
-            padding-top: clamp(4px, 1vw, 12px);
-            padding-bottom: clamp(2px, 0.5vw, 6px);
-            border-radius: 10vw;
-            white-space: nowrap;
-        }
-
-        a img {
-            position: absolute;
-            top: 50%;               /* La imagen se coloca al 50% de la altura de la ventana */
-            left: 50%;              /* La imagen se coloca al 50% de la anchura de la ventana */
-            transform: translate(-50%, -50%); /* Centra la imagen exactamente */
-            display: none;  /* La imagen está oculta inicialmente */
-            width: 5vw;   /* Ajusta el tamaño de la imagen */
-            height: auto;
-            z-index: 10;   
-        }
-
-        /* Estilos cuando el cursor está sobre el enlace */
-        a:hover img {
-            display: block; /* Muestra la imagen al hacer hover */
-        }
-
-        /* Estilo para la imagen responsiva */
-        .responsive-image {
-            width: clamp(150px, 50vw, 500px);  /* El tamaño se adapta a la pantalla */
-            height: auto;  /* Mantiene la relación de aspecto de la imagen */
-        }
-
-        .elemento {
-            font-size: var(--text-3xl);                /* Tamaño de fuente */
-            font-family: 'PPEditorialNew-Ultralight';
-            white-space: nowrap;            /* Evitar que el texto se divida en varias líneas */
-            display: inline-block;          /* Para que el elemento se mueva como un bloque en línea */
-            animation: moverTexto 6s linear infinite;  /* Animación que dura 10s, con movimiento constante y repetido indefinidamente */
-        }
-
-        /* Definir la animación con @keyframes */
-        @keyframes moverTexto {
-        0% {
-            transform: translateX(550%); /* Comienza fuera de la pantalla a la derecha */
-        }
-        100% {
-            transform: translateX(-150%); /* Termina fuera de la pantalla a la izquierda */
-        }
-        }
-    </style>
 </head>
-<body>
+<body style="margin: 10px;">
 
     <!-- <div class="elemento"><i>INICIO</i></div> -->
-    <p>
-        <a>Francisco de Goya<img class="responsive-image" src="./images/goya.jpg"></a>&nbsp;fue un pintor y grabador español. 
-        Es considerado uno de los artistas europeos más importantes de su tiempo. Siempre <a style="background: none; padding: 0 0 0 0;">innovador<img class="responsive-image" src="./images/innovador.gif"></a>, consiguió adelantarse a todos 
-        y cada uno de los movimientos pictóricos que aparecieron en Europa, desde el <a style="background: linear-gradient(to right, #8399a2, #eef2f3);">romanticismo<img class="responsive-image" src="./images/romanticismo.jpg"></a> 
-        al <a style="background: linear-gradient(to right, #861301, #f88e00);">surrealismo<img class="responsive-image" src="./images/surrealismo.jpg"></a>, pasando por el 
-        <a style="background: linear-gradient(to right, #ed8274, #82d9e2);">impresionismo<img class="responsive-image" src="./images/impresionismo.jpg"></a> 
-        y el <a style="background: linear-gradient(to right, #8bdaa6, #f37d6c);">expresionismo<img class="responsive-image" src="./images/expresionismo.jpeg"></a>. 
-        Es por ello considerado el <a style="background: none; padding: 0 0 0 0;">Padre del Arte Contemporáneo<img class="responsive-image" src="./images/boss.gif"></a>.
+    <p class="clave">Palabras clave: <a class="clave">Francisco de Goya</a> <a>Romanticismo</a> <a>Surrealismo</a> <a>Impresionismo</a> <a>Expresionismo</a></p>
+    <p class="info">
+        <a class="goya">Francisco de Goya<img class="responsive-image" src="https://ik.imagekit.io/GALANCRUDIT24/UDIT/arte/goya.jpg"></a>&nbsp;fue un pintor y grabador español. 
+        Es considerado uno de los artistas europeos más importantes de su tiempo. Siempre <a class="meme">innovador<img class="responsive-image" src="./images/innovador.gif"></a>, consiguió adelantarse a todos 
+        y cada uno de los movimientos pictóricos que aparecieron en Europa, desde el <a class="romanticismo">romanticismo<img class="responsive-image" src="https://ik.imagekit.io/GALANCRUDIT24/UDIT/arte/romanticismo.jpg"></a> 
+        al <a class="surrealismo">surrealismo<img class="responsive-image" src="https://ik.imagekit.io/GALANCRUDIT24/UDIT/arte/surrealismo.jpg"></a>, pasando por el 
+        <a class="impresionismo">impresionismo<img class="responsive-image" src="https://ik.imagekit.io/GALANCRUDIT24/UDIT/arte/impresionismo.jpg"></a> 
+        y el <a class="expresionismo">expresionismo<img class="responsive-image" src="https://ik.imagekit.io/GALANCRUDIT24/UDIT/arte/expresionismo.jpeg"></a>. 
+        Es por ello considerado el <a class="meme">Padre del Arte Contemporáneo<img class="responsive-image" src="./images/boss.gif"></a>.
     </p>
 </body>
 </html>
