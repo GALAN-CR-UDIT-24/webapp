@@ -24,17 +24,9 @@
 }
 @font-face {
     font-family: 'PPEditorialNew-Ultralight';
-    src: url('./fonts/PPEditorialNew-Ultralight.otf') format('woff2');
-}
-@font-face {
-    font-family: 'PPEditorialNew-Regular';
-    src: url('./fonts/PPEditorialNew-Regular.otf') format('woff2');
+    src: url('./fonts/PPEditorialNew-Ultralight.woff2') format('woff2');
 }
 @font-face {
     font-family: 'PPMondwest-Regular';
-    src: url('./fonts/PPMondwest-Regular.otf') format('woff2');
-}
-@font-face {
-    font-family: 'PPNeueBit-Bold';
-    src: url('./fonts/PPNeueBit-Bold.otf') format('woff2');
+    src: url('./fonts/PPMondwest-Regular.woff2') format('woff2');
 }
