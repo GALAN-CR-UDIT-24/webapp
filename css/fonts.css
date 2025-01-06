@@ -27,6 +27,10 @@
     src: url('./fonts/PPEditorialNew-Ultralight.woff2') format('woff2');
 }
 @font-face {
+    font-family: 'PPEditorialNew-UltralightItalic';
+    src: url('./fonts/PPEditorialNew-UltralightItalic.woff2') format('woff2');
+}
+@font-face {
     font-family: 'PPMondwest-Regular';
     src: url('./fonts/PPMondwest-Regular.woff2') format('woff2');
 }

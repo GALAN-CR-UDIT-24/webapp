@@ -44,34 +44,52 @@ a{
 /* Estilos INFO <p> */
 
 .cover{
-   margin-left: 5%;
-   margin-right: 5%;
-   margin-top: 22.5%;
-   margin-bottom: 27.5%;
+    height: clamp(480px, 100vh, 1080px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5%;
+    animation: fondoAnimado 8s ease infinite;
 }
 .book{
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 1.5% 1.5% 0 1.5%;
 }
 .desarrollo {
-    margin-left: 50%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding: 2.5% 1.5% 5% 25%;
 }
-.title{
-    font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-base);
-    line-height: var(--text-lg);
-    text-align: center;
-    color: black;
+.contenido{
+    font-family: 'ATHaussMono-Light';
+    font-size: var(--text-xs);
+    line-height: var(--text-xs);
+    text-align: justify;
     cursor: default;
     margin: 0;
 }
+.title{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-3xl);
+    line-height: var(--text-3xl);
+    text-align: center;
+    color: whitesmoke;
+    cursor: default;
+    margin: 0;
+    padding: 0 12.5% 0 12.5%;
+}
+.subtitle{
+    font-family: 'ATHaussMono-Light';
+    font-size: var(--text-2xs);
+    line-height: var(--text-2xs);
+    text-align: center;
+    color: whitesmoke;
+    cursor: default;
+    margin: 0;
+    padding: 0 25% 0 25%;
+}
 .info{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xl);
-    line-height: var(--text-xl);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
     text-align: justify;
     cursor: default;
     margin: 0;
@@ -93,8 +111,10 @@ a:hover img {
 }
     /* Estilo para la imagen responsiva */
 .responsive-image {
-    width: clamp(150px, 50vw, 500px); /* El tamaño se adapta a la pantalla */
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    /* width: clamp(150px, 50vw, 500px); /* El tamaño se adapta a la pantalla */
+    /* height: auto; /* Mantiene la relación de aspecto de la imagen */
+    height: clamp(480px, 75vh, 1080px);
+    width: auto;
 }
     /* ANIMACIÓN desplazamiento de texto */
 .elemento {
@@ -115,6 +135,17 @@ a:hover img {
 }
     /* ANIMACIÓN color de texto */
 
+@keyframes fondoAnimado {
+    0% {
+        background: #525252;  /* Degradado de colores inicial */
+    }
+    50% {
+        background: #000000;  /* Otro cambio de colores */
+    }
+    100% {
+        background: #525252;  /* Vuelve al estado inicial */
+    }
+}
 @keyframes cambioColorGoya {
     0% {
         color: #375f44; /* Color al inicio */
@@ -212,8 +243,8 @@ a:hover img {
 }
 .claveGoya{
     font-family: 'PPMondwest-Regular';
-    font-size: var(--text-2xl);
-    line-height: var(--text-2xl);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
     cursor: default;
     color: black;
     /*background: linear-gradient(to right, #375f44, #e9c071);
@@ -229,8 +260,8 @@ a:hover img {
 
 .goya{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xl);
-    line-height: var(--text-xl);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorGoya 4s infinite;
     /*background: linear-gradient(to right, #375f44, #e9c071);
@@ -243,8 +274,8 @@ a:hover img {
 }
 .romanticismo{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xl);
-    line-height: var(--text-xl);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorRomanticismo 6s infinite;
     /*background: linear-gradient(to right, #8399a2, #eef2f3);
@@ -257,8 +288,8 @@ a:hover img {
 }
 .surrealismo{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xl);
-    line-height: var(--text-xl);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorSurrealismo 8s infinite;
     /*background: linear-gradient(to right, #861301, #f88e00);
@@ -271,8 +302,8 @@ a:hover img {
 }
 .impresionismo{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xl);
-    line-height: var(--text-xl);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorImpresionismo 8s infinite;
     /*background: linear-gradient(to right, #ed8274, #82d9e2);
@@ -285,8 +316,8 @@ a:hover img {
 }
 .expresionismo{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xl);
-    line-height: var(--text-xl);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorExpresionismo 4s infinite;
     /*background: linear-gradient(to right, #8bdaa6, #f37d6c);
@@ -296,14 +327,6 @@ a:hover img {
     padding-bottom: clamp(2px, 0.5vw, 6px);
     border-radius: 10vw;
     white-space: nowrap;*/
-}
-.contenido{
-    font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-base);
-    line-height: var(--text-lg);
-    text-align: justify;
-    cursor: default;
-    margin: 0;
 }
 .contenedor02 {
     margin-top: 4%;
@@ -317,9 +340,9 @@ a:hover img {
 
 .meme{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xl);
-    line-height: var(--text-xl);
-    text-align: justify;
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
+    text-align: left;
     cursor: default;
     color: black;
 }
