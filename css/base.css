@@ -52,6 +52,9 @@ a{
     gap: 2.5%;
     animation: fondoAnimado 8s ease infinite;
 }
+.back{
+    padding: 7.5% 0 7.5% 0;
+}
 .book{
     padding: 1.5% 1.5% 0 1.5%;
 }
@@ -116,144 +119,81 @@ a:hover img {
     height: clamp(480px, 75vh, 1080px);
     width: auto;
 }
-    /* ANIMACIÓN desplazamiento de texto */
-.elemento {
-    font-size: var(--text-3xl); /* Tamaño de fuente */
-    font-family: 'PPEditorialNew-Ultralight';
-    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
-    display: inline-block; /* Para que el elemento se mueva como un bloque en línea */
-    animation: moverTexto 6s linear infinite; /* Animación que dura 10s, con movimiento constante y repetido indefinidamente */
-}
-    /* Definir la animación con @keyframes */
-@keyframes moverTexto {
-0% {
-    transform: translateX(550%); /* Comienza fuera de la pantalla a la derecha */
-}
-100% {
-    transform: translateX(-150%); /* Termina fuera de la pantalla a la izquierda */
-}
-}
-    /* ANIMACIÓN color de texto */
-
-@keyframes fondoAnimado {
-    0% {
-        background: #525252;  /* Degradado de colores inicial */
-    }
-    50% {
-        background: #000000;  /* Otro cambio de colores */
-    }
-    100% {
-        background: #525252;  /* Vuelve al estado inicial */
-    }
-}
-@keyframes cambioColorGoya {
-    0% {
-        color: #375f44; /* Color al inicio */
-    }
-    25% {
-        color: #e9c071; /* Primer cambio de color */
-    }
-    50% {
-        color: #375f44; /* Segundo cambio de color */
-    }
-    75% {
-        color: #e9c071; /* Tercer cambio de color */
-    }
-    100% {
-        color: #375f44; /* Último cambio de color */
-    }
-}
-@keyframes cambioColorRomanticismo {
-    0% {
-        color: #8399a2; /* Color al inicio */
-    }
-    25% {
-        color: #eef2f3; /* Primer cambio de color */
-    }
-    50% {
-        color: #8399a2; /* Segundo cambio de color */
-    }
-    75% {
-        color: #eef2f3; /* Tercer cambio de color */
-    }
-    100% {
-        color: #8399a2; /* Último cambio de color */
-    }
-}
-@keyframes cambioColorSurrealismo {
-    0% {
-        color: #861301; /* Color al inicio */
-    }
-    25% {
-        color: #f88e00; /* Primer cambio de color */
-    }
-    50% {
-        color: #861301; /* Segundo cambio de color */
-    }
-    75% {
-        color: #f88e00; /* Tercer cambio de color */
-    }
-    100% {
-        color: #861301; /* Último cambio de color */
-    }
-}
-@keyframes cambioColorImpresionismo {
-    0% {
-        color: #ed8274; /* Color al inicio */
-    }
-    25% {
-        color: #82d9e2; /* Primer cambio de color */
-    }
-    50% {
-        color: #ed8274; /* Segundo cambio de color */
-    }
-    75% {
-        color: #82d9e2; /* Tercer cambio de color */
-    }
-    100% {
-        color: #ed8274; /* Último cambio de color */
-    }
-}
-@keyframes cambioColorExpresionismo {
-    0% {
-        color: #8bdaa6; /* Color al inicio */
-    }
-    25% {
-        color: #f37d6c; /* Primer cambio de color */
-    }
-    50% {
-        color: #8bdaa6; /* Segundo cambio de color */
-    }
-    75% {
-        color: #f37d6c; /* Tercer cambio de color */
-    }
-    100% {
-        color: #8bdaa6; /* Último cambio de color */
-    }
-}
 
 /* Estilos PALABRAS CLAVE <a> */
 
-.clave{
-    font-family: 'PPMondwest-Regular';
-    font-size: var(--text-lg);
-    line-height: var(--text-lg);
-    cursor: default;
-    color: black;
+.palabrasClave{
+    text-align: center;
 }
 .claveGoya{
-    font-family: 'PPMondwest-Regular';
-    font-size: var(--text-lg);
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-xs);
     line-height: var(--text-lg);
-    cursor: default;
+    cursor: pointer;
     color: black;
-    /*background: linear-gradient(to right, #375f44, #e9c071);
+    background: linear-gradient(to right, #375f44, #e9c071);
     padding-left: clamp(12px, 2vw, 20px);
     padding-right: clamp(10px, 2vw, 20px);
     padding-top: clamp(4px, 1vw, 12px);
     padding-bottom: clamp(2px, 0.5vw, 6px);
     border-radius: 10vw;
-    white-space: nowrap;*/
+    white-space: nowrap;
+}
+.claveRomanticismo{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-xs);
+    line-height: var(--text-lg);
+    cursor: pointer;
+    color: black;
+    background: linear-gradient(to right, #375f44, #e9c071);
+    padding-left: clamp(12px, 2vw, 20px);
+    padding-right: clamp(10px, 2vw, 20px);
+    padding-top: clamp(4px, 1vw, 12px);
+    padding-bottom: clamp(2px, 0.5vw, 6px);
+    border-radius: 10vw;
+    white-space: nowrap;
+}
+.claveSurrealismo{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-xs);
+    line-height: var(--text-lg);
+    cursor: pointer;
+    color: black;
+    background: linear-gradient(to right, #375f44, #e9c071);
+    padding-left: clamp(12px, 2vw, 20px);
+    padding-right: clamp(10px, 2vw, 20px);
+    padding-top: clamp(4px, 1vw, 12px);
+    padding-bottom: clamp(2px, 0.5vw, 6px);
+    border-radius: 10vw;
+    white-space: nowrap;
+}
+.claveImpresionismo{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-xs);
+    line-height: var(--text-lg);
+    cursor: pointer;
+    color: black;
+    background: linear-gradient(to right, #375f44, #e9c071);
+    padding-left: clamp(12px, 2vw, 20px);
+    padding-right: clamp(10px, 2vw, 20px);
+    padding-top: clamp(4px, 1vw, 12px);
+    padding-bottom: clamp(2px, 0.5vw, 6px);
+    border-radius: 10vw;
+    white-space: nowrap;
+}
+.claveExpresionismo{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-xs);
+    line-height: var(--text-lg);
+    cursor: pointer;
+    color: black;
+    background: linear-gradient(to right, #375f44, #e9c071);
+    padding-left: clamp(12px, 2vw, 20px);
+    padding-right: clamp(10px, 2vw, 20px);
+    padding-top: clamp(4px, 1vw, 12px);
+    padding-bottom: clamp(2px, 0.5vw, 6px);
+    border-radius: 10vw;
+    white-space: nowrap;
 }
 
 /* Estilos ARTE <a> */

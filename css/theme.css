@@ -1,0 +1,98 @@
+/* ANIMACIÓN color de texto */
+
+@keyframes fondoAnimado {
+    0% {
+        background: #525252;  /* Degradado de colores inicial */
+    }
+    50% {
+        background: #000000;  /* Otro cambio de colores */
+    }
+    100% {
+        background: #525252;  /* Vuelve al estado inicial */
+    }
+}
+@keyframes cambioColorGoya {
+    0% {
+        color: #375f44; /* Color al inicio */
+    }
+    25% {
+        color: #e9c071; /* Primer cambio de color */
+    }
+    50% {
+        color: #375f44; /* Segundo cambio de color */
+    }
+    75% {
+        color: #e9c071; /* Tercer cambio de color */
+    }
+    100% {
+        color: #375f44; /* Último cambio de color */
+    }
+}
+@keyframes cambioColorRomanticismo {
+    0% {
+        color: #8399a2; /* Color al inicio */
+    }
+    25% {
+        color: #eef2f3; /* Primer cambio de color */
+    }
+    50% {
+        color: #8399a2; /* Segundo cambio de color */
+    }
+    75% {
+        color: #eef2f3; /* Tercer cambio de color */
+    }
+    100% {
+        color: #8399a2; /* Último cambio de color */
+    }
+}
+@keyframes cambioColorSurrealismo {
+    0% {
+        color: #861301; /* Color al inicio */
+    }
+    25% {
+        color: #f88e00; /* Primer cambio de color */
+    }
+    50% {
+        color: #861301; /* Segundo cambio de color */
+    }
+    75% {
+        color: #f88e00; /* Tercer cambio de color */
+    }
+    100% {
+        color: #861301; /* Último cambio de color */
+    }
+}
+@keyframes cambioColorImpresionismo {
+    0% {
+        color: #ed8274; /* Color al inicio */
+    }
+    25% {
+        color: #82d9e2; /* Primer cambio de color */
+    }
+    50% {
+        color: #ed8274; /* Segundo cambio de color */
+    }
+    75% {
+        color: #82d9e2; /* Tercer cambio de color */
+    }
+    100% {
+        color: #ed8274; /* Último cambio de color */
+    }
+}
+@keyframes cambioColorExpresionismo {
+    0% {
+        color: #8bdaa6; /* Color al inicio */
+    }
+    25% {
+        color: #f37d6c; /* Primer cambio de color */
+    }
+    50% {
+        color: #8bdaa6; /* Segundo cambio de color */
+    }
+    75% {
+        color: #f37d6c; /* Tercer cambio de color */
+    }
+    100% {
+        color: #8bdaa6; /* Último cambio de color */
+    }
+}
