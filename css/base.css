@@ -122,16 +122,18 @@ a:hover img {
 
 /* Estilos PALABRAS CLAVE <a> */
 
-.palabrasClave{
+.navbar{
     text-align: center;
+    padding: 2.5% 12.5% 5% 12.5%;
+    cursor: default;
 }
-.claveGoya{
+.formacion{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xs);
-    line-height: var(--text-lg);
+    font-size: var(--text-base);
+    line-height: var(--text-2xl);
     cursor: pointer;
-    color: black;
-    background: linear-gradient(to right, #375f44, #e9c071);
+    color: whitesmoke;
+    animation: cambioColorNavbar 8s infinite;
     padding-left: clamp(12px, 2vw, 20px);
     padding-right: clamp(10px, 2vw, 20px);
     padding-top: clamp(4px, 1vw, 12px);
@@ -139,13 +141,13 @@ a:hover img {
     border-radius: 10vw;
     white-space: nowrap;
 }
-.claveRomanticismo{
+.madurez{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xs);
-    line-height: var(--text-lg);
+    font-size: var(--text-base);
+    line-height: var(--text-2xl);
     cursor: pointer;
-    color: black;
-    background: linear-gradient(to right, #375f44, #e9c071);
+    color: whitesmoke;
+    animation: cambioColorNavbar 8s infinite;
     padding-left: clamp(12px, 2vw, 20px);
     padding-right: clamp(10px, 2vw, 20px);
     padding-top: clamp(4px, 1vw, 12px);
@@ -153,13 +155,13 @@ a:hover img {
     border-radius: 10vw;
     white-space: nowrap;
 }
-.claveSurrealismo{
+.crisis{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xs);
-    line-height: var(--text-lg);
+    font-size: var(--text-base);
+    line-height: var(--text-2xl);
     cursor: pointer;
-    color: black;
-    background: linear-gradient(to right, #375f44, #e9c071);
+    color: whitesmoke;
+    animation: cambioColorNavbar 8s infinite;
     padding-left: clamp(12px, 2vw, 20px);
     padding-right: clamp(10px, 2vw, 20px);
     padding-top: clamp(4px, 1vw, 12px);
@@ -167,13 +169,13 @@ a:hover img {
     border-radius: 10vw;
     white-space: nowrap;
 }
-.claveImpresionismo{
+.criticasocial{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xs);
-    line-height: var(--text-lg);
+    font-size: var(--text-base);
+    line-height: var(--text-2xl);
     cursor: pointer;
-    color: black;
-    background: linear-gradient(to right, #375f44, #e9c071);
+    color: whitesmoke;
+    animation: cambioColorNavbar 8s infinite;
     padding-left: clamp(12px, 2vw, 20px);
     padding-right: clamp(10px, 2vw, 20px);
     padding-top: clamp(4px, 1vw, 12px);
@@ -181,13 +183,13 @@ a:hover img {
     border-radius: 10vw;
     white-space: nowrap;
 }
-.claveExpresionismo{
+.exilio{
     font-family: 'PPEditorialNew-Ultralight';
-    font-size: var(--text-xs);
-    line-height: var(--text-lg);
+    font-size: var(--text-base);
+    line-height: var(--text-2xl);
     cursor: pointer;
-    color: black;
-    background: linear-gradient(to right, #375f44, #e9c071);
+    color: whitesmoke;
+    animation: cambioColorNavbar 8s infinite;
     padding-left: clamp(12px, 2vw, 20px);
     padding-right: clamp(10px, 2vw, 20px);
     padding-top: clamp(4px, 1vw, 12px);

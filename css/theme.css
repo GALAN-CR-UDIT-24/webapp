@@ -11,6 +11,17 @@
         background: #525252;  /* Vuelve al estado inicial */
     }
 }
+@keyframes cambioColorNavbar {
+    0% {
+        background: #525252;  /* Degradado de colores inicial */
+    }
+    50% {
+        background: #000000;  /* Otro cambio de colores */
+    }
+    100% {
+        background: #525252;  /* Vuelve al estado inicial */
+    }
+}
 @keyframes cambioColorGoya {
     0% {
         color: #375f44; /* Color al inicio */
