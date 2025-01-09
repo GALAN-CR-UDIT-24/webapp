@@ -39,6 +39,14 @@ a{
     color: dodgerblue;
     text-decoration: none;
 }
+.footer{
+    font-family: 'ATHaussMono-Light';
+    font-size: var(--text-2xs);
+    line-height: var(--text-2xs);
+    text-align: left;
+    margin: 0;
+    color: black;
+}
 
 /* ENTREGA FINAL */
 /* Estilos INFO <p> */
@@ -105,7 +113,7 @@ a img {
     transform: translate(-50%, -50%); /* Centra la imagen exactamente */
     display: none; /* La imagen está oculta inicialmente */
     width: 5vw; /* Ajusta el tamaño de la imagen */
-    height: auto;
+    height: 5vh;
     z-index: 10;   
 }
     /* Estilos cuando el cursor está sobre el enlace */
@@ -114,10 +122,10 @@ a:hover img {
 }
     /* Estilo para la imagen responsiva */
 .responsive-image {
-    /* width: clamp(150px, 50vw, 500px); /* El tamaño se adapta a la pantalla */
-    /* height: auto; /* Mantiene la relación de aspecto de la imagen */
-    height: clamp(480px, 75vh, 1080px);
-    width: auto;
+    width: clamp(150px, 50vw, 500px); /* El tamaño se adapta a la pantalla */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    /*height: clamp(480px, 75vh, 1080px);
+    width: auto;*/
 }
 
 /* Estilos PALABRAS CLAVE <a> */
@@ -198,7 +206,7 @@ a:hover img {
     white-space: nowrap;
 }
 
-/* Estilos ARTE <a> */
+/* Estilos INFO */
 
 .goya{
     font-family: 'PPEditorialNew-Ultralight';
@@ -206,13 +214,6 @@ a:hover img {
     line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorGoya 4s infinite;
-    /*background: linear-gradient(to right, #375f44, #e9c071);
-    padding-left: clamp(12px, 2vw, 20px);
-    padding-right: clamp(10px, 2vw, 20px);
-    padding-top: clamp(4px, 1vw, 12px);
-    padding-bottom: clamp(2px, 0.5vw, 6px);
-    border-radius: 10vw;
-    white-space: nowrap;*/
 }
 .romanticismo{
     font-family: 'PPEditorialNew-Ultralight';
@@ -220,13 +221,6 @@ a:hover img {
     line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorRomanticismo 6s infinite;
-    /*background: linear-gradient(to right, #8399a2, #eef2f3);
-    padding-left: clamp(12px, 2vw, 20px);
-    padding-right: clamp(10px, 2vw, 20px);
-    padding-top: clamp(4px, 1vw, 12px);
-    padding-bottom: clamp(2px, 0.5vw, 6px);
-    border-radius: 10vw;
-    white-space: nowrap;*/
 }
 .surrealismo{
     font-family: 'PPEditorialNew-Ultralight';
@@ -234,13 +228,6 @@ a:hover img {
     line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorSurrealismo 8s infinite;
-    /*background: linear-gradient(to right, #861301, #f88e00);
-    padding-left: clamp(12px, 2vw, 20px);
-    padding-right: clamp(10px, 2vw, 20px);
-    padding-top: clamp(4px, 1vw, 12px);
-    padding-bottom: clamp(2px, 0.5vw, 6px);
-    border-radius: 10vw;
-    white-space: nowrap;*/
 }
 .impresionismo{
     font-family: 'PPEditorialNew-Ultralight';
@@ -248,13 +235,6 @@ a:hover img {
     line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorImpresionismo 8s infinite;
-    /*background: linear-gradient(to right, #ed8274, #82d9e2);
-    padding-left: clamp(12px, 2vw, 20px);
-    padding-right: clamp(10px, 2vw, 20px);
-    padding-top: clamp(4px, 1vw, 12px);
-    padding-bottom: clamp(2px, 0.5vw, 6px);
-    border-radius: 10vw;
-    white-space: nowrap;*/
 }
 .expresionismo{
     font-family: 'PPEditorialNew-Ultralight';
@@ -262,28 +242,67 @@ a:hover img {
     line-height: var(--text-lg);
     cursor: default;
     animation: cambioColorExpresionismo 4s infinite;
-    /*background: linear-gradient(to right, #8bdaa6, #f37d6c);
-    padding-left: clamp(12px, 2vw, 20px);
-    padding-right: clamp(10px, 2vw, 20px);
-    padding-top: clamp(4px, 1vw, 12px);
-    padding-bottom: clamp(2px, 0.5vw, 6px);
-    border-radius: 10vw;
-    white-space: nowrap;*/
 }
-.contenedor02 {
-    margin-top: 4%;
+.tapices{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
+    cursor: default;
+    animation: cambioColorTapices 4s infinite;
 }
-.contenedorEtapa2{
-    margin-left: 25%;
-    margin-top: 8%;
+.velazquez{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
+    cursor: default;
+    animation: cambioColorVelazquez 4s infinite;
+}
+.historico{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
+    cursor: default;
+    animation: cambioColorHistorico 4s infinite;
+}
+.pinturasnegras{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
+    cursor: default;
+    animation: cambioColorPinturasnegras 4s infinite;
+}
+.lechera{
+    font-family: 'PPEditorialNew-Ultralight';
+    font-size: var(--text-lg);
+    line-height: var(--text-lg);
+    cursor: default;
+    animation: cambioColorLechera 4s infinite;
 }
 
-/* Estilos MEMES <a> */
+/* Estilos DESARROLLO */
+
+.destacado{
+    font-family: 'ATHaussMono-Regular';
+    font-size: var(--text-xs);
+    line-height: var(--text-xs);
+    color: black;
+    text-decoration: underline;
+}
+
+/* Estilos MEMES */
 
 .meme{
     font-family: 'PPEditorialNew-Ultralight';
     font-size: var(--text-lg);
     line-height: var(--text-lg);
+    text-align: left;
+    cursor: default;
+    color: black;
+}
+.memeDesarrollo{
+    font-family: 'ATHaussMono-Light';
+    font-size: var(--text-xs);
+    line-height: var(--text-xs);
     text-align: left;
     cursor: default;
     color: black;

@@ -6,13 +6,15 @@
     display: flex;
     flex-wrap: wrap; /* Permitir que las columnas se ajusten en múltiples líneas */
     align-items: flex-start; /* Alinear la parte superior */
-    margin-bottom: 15px;
-    border-bottom: 1px solid #000000;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-top: 0.75px solid #000000;
 }
 .column {
     flex: 1; /* Las columnas ocupan el mismo espacio */
     min-width: 150px; /* Ancho mínimo para columnas */
-    margin-bottom: 10px;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
 }
 .column:last-child {
     margin-right: 0; /* Sin margen a la derecha en la última columna */
