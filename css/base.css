@@ -8,7 +8,6 @@ h1{
     font-family: 'AtHaussMono-Light';
     font-size: var(--text-base);
     line-height: var(--text-base);
-    color: coral;
     margin: 0;
 }
 h3{
@@ -17,7 +16,6 @@ h3{
     line-height: var(--text-base);
     margin-top: 20px;
     margin-bottom: 10px;
-    color: khaki;
 }
 p{
     font-family: 'AtHaussMono-Regular';
@@ -30,13 +28,11 @@ p{
 }
 sup{
     font-family: 'AtHaussMono-Light';
-    color: mediumorchid ;
 }
 a{
     font-family: 'AtHaussMono-Regular';
     font-size: var(--text-base);
     line-height: var(--text-base);
-    color: dodgerblue;
     text-decoration: none;
 }
 .footer{
@@ -46,6 +42,13 @@ a{
     text-align: left;
     margin: 0;
     color: black;
+}
+.index{
+    color: whitesmoke;
+    padding: 1.5%;
+}
+.pages{
+    color: whitesmoke;
 }
 
 /* ENTREGA FINAL */

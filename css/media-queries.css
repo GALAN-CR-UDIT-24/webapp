@@ -19,6 +19,6 @@
 .column:last-child {
     margin-right: 0; /* Sin margen a la derecha en la última columna */
 }
-img {
+.coolimg {
     width: 100%; /* Adaptar imagen al tamaño del contenedor */
 }
