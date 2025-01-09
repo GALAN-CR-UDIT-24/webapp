@@ -3,13 +3,13 @@
   "short_name": "MySite",
   "icons": [
     {
-      "src": "/./icon/favicon/web-app-manifest-192x192.png",
+      "src": "https://ik.imagekit.io/GALANCRUDIT24/UDIT/others/favicon.jpg",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/./icon/favicon/web-app-manifest-512x512.png",
+      "src": "https://ik.imagekit.io/GALANCRUDIT24/UDIT/others/favicon.jpg",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
