@@ -1,5 +1,30 @@
+# Dependencias de Node.js (si las usas)
+node_modules/
+
+# Archivos generados por el sistema operativo
 .DS_Store
-node_modules
-/assets/images/*
-.prettierignore
+Thumbs.db
+
+# Archivos de configuración del editor
 .vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Archivos de compilación (si estás usando algún sistema de build)
+dist/
+build/
+
+# Archivos de salida de pruebas
+coverage/
+
+# Archivos temporales generados por editores de texto
+*.swp
+*.swo
+
+# Archivos de configuración de herramientas de desarrollo (por ejemplo, Webpack)
+webpack.config.js
+
+# Archivos de configuración personal (si usas algún paquete como dotenv)
+.env
